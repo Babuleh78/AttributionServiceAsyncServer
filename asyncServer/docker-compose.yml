@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  music-analysis-service:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    environment:
+      - DJANGO_API_URL=http://django:8000
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true
