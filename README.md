@@ -1,4 +1,4 @@
-## Сервис музыкально атрибуции
+## Асинхронный сервис для музыкальной атрибуции
 
 - **Фронтенд:** [GitHub Repository](https://github.com/Babuleh78/AttributionServiceFrontend)
 - **Бэкенд:** [GitHub Repository](https://github.com/Babuleh78/AttributionServiceBackend)
